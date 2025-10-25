@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruising Adventures</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cruising Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Explore the Joy of Cruising</h2>
+        <p>Cruising offers an amazing way to travel — combining luxury, relaxation, and adventure all in one experience. From Caribbean beaches to Alaskan glaciers, every cruise is an unforgettable journey.</p>
+
+        <h3>Popular Cruise Destinations</h3>
+        <ul>
+            <li>Caribbean Islands</li>
+            <li>Alaska</li>
+            <li>Mediterranean Sea</li>
+            <li>Hawaii</li>
+            <li>Baltic Sea</li>
+        </ul>
+
+        <h3>Photo Gallery</h3>
+        <img src="images/cruise-ship.jpg" alt="Cruise ship on the ocean" width="400">
+        <img src="images/tropical-island.jpg" alt="Tropical island with clear water" width="400">
+
+        <h3>Experience Cruising</h3>
+        <p>Watch this video to see why so many travelers love to cruise:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" title="Cruise experience video" allowfullscreen></iframe>
+
+        <h3>Why Choose a Cruise?</h3>
+        <p>Cruising is more than just a vacation — it’s a lifestyle. You get to explore multiple destinations while only unpacking once, enjoy world-class dining, and meet people from around the world.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Phillip Mathis | <a href="about.html">Learn More About Cruising</a></p>
+    </footer>
+</body>
+</html>
