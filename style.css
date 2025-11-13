@@ -117,11 +117,6 @@ img {
   box-shadow: 0 6px 15px rgba(0,0,0,0.05);
 }
 
-/* Optional large image class */
-.large-image {
-  max-width: 1000px;
-}
-
 /* ---- Video ---- */
 iframe {
   width: 100%;
