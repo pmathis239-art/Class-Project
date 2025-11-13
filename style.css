@@ -71,6 +71,8 @@ main {
 /* Sections spacing */
 main section {
   margin-bottom: 3rem; /* airy spacing */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Headings */
