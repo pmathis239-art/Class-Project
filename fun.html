@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cruise Fun</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Fun</title>
+    <link rel="icon" href="images/ship icon.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Cruise Fun Page</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="fun.html">Fun</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
 
-  <main>
-    <section class="waves-section">
-      <canvas id="waveCanvas"></canvas>
-      <img src="images/cruise-ship.png" alt="Cruise Ship" class="ship">
-    </section>
-    <section>
-      <h2>Experience Cruising in Motion</h2>
-      <p>Watch as the cruise ship glides smoothly over the waves! This animation shows the relaxing rhythm of a real cruise adventure.</p>
-    </section>
-  </main>
+        <header>
+            <h1>Cruise Fun Page</h1>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fun.html">Fun</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
 
-  <footer>
-    <p>&copy; 2025 Phillip Mathis | <a href="index.html">Return to Home</a></p>
-  </footer>
+        <main>
 
-  <script src="waves.js"></script>
+            <!-- Section: Animation -->
+            <section class="waves-section">
+                <canvas id="waveCanvas"></canvas>
+                <img src="images/cruise-ship.png" alt="Cruise Ship Animation" class="ship">
+            </section>
+
+            <!-- Section: Description -->
+            <section>
+                <h2>Experience Cruising in Motion</h2>
+                <p>Watch as the cruise ship glides smoothly over the waves! This animation captures the peaceful and relaxing rhythm of a real cruise adventure at sea.</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Phillip Mathis</p>
+            <div class="footer-card">
+                <p><a href="index.html">Return to Home</a> | <a href="about.html">Learn More About Cruising</a></p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="waves.js"></script>
 </body>
 </html>
